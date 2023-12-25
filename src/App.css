@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Josefin+Sans:wght@300;400;500;600;700&display=swap');
+/* basic setting  */
+
+/* // css varialbe  */
+:root{
+  --primary:crimson;
+  --bg-color: #f3f4f6;
+  --white: #fff;
+  --secondary-text:#7d7d7d;
+  --shaddow : 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+*{
+  font-family: 'Josefin Sans', sans-serif;
+}
+/* // reused class  */
+body{
+  background: var(--bg-color);
+}
+/* // logo design  */
+.logo h1{
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Borel";
+  
+}
+.logo h1 span{
+  font-family: "Borel";
+  color: var(--primary);
+}
+
+/* // header section */
+.site-header{
+  width: 100%;
+  background: var(--white);
+  padding: 20px;
+  box-shadow: var(--shaddow)
+}
+/* // profile img  */
+.profile-img{
+  background: var(--primary);
+}
+/* // nav item  */
+.item{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  cursor: pointer;
+}
+.item i{
+  color: var(--secondary-text);
+}
+
+/* sidebar design  */
+.sideBar{
+  background: var(--white);
+  height: 90vh;
+  box-shadow: var(--shaddow)
+}
+
+/* .home page  */
+.card{
+  box-shadow: var(--shaddow);
+  padding: 10px;
+  background: var(--white);
+  border-radius: 5px;
+}
